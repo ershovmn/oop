@@ -1,0 +1,7 @@
+*.*
+!.gitattributes
+!README.md
+!.gitignore
+!.gitkeep
+!*.cs
+!*/
