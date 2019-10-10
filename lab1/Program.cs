@@ -15,6 +15,7 @@ namespace sharp
             sf.Max().Print();
             sf.Min().Print();
             Console.WriteLine($"{sf.CountMoreThanFraction(a4)}");
+            Console.WriteLine($"{sf.CountMoreThanFraction(a4)}");
         }
     }
 }
