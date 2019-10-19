@@ -28,7 +28,7 @@ class Section {
         try {
             return Data[key];
         } catch {
-            throw new Exception($"Not found key '{key}' in section '{Name}'");
+            throw new KeyNotFound();
         }
     }
 

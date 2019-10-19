@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using System.Globalization;
 
 class HandlerFileINI {
     public string fileName =  "";
@@ -9,7 +10,7 @@ class HandlerFileINI {
 
     public HandlerFileINI(string pathFile) {
         if (Path.GetExtension(pathFile) != ".ini") {
-            throw new Exception("Invalid type file");
+            throw new InvalidTypeFile();
         }
         else {
             try {
@@ -29,7 +30,7 @@ class HandlerFileINI {
                     }
                 }
             } catch {
-                throw new Exception("Error read file");
+                throw new ErrorReadFile();
             }
         }
     }
@@ -39,7 +40,7 @@ class HandlerFileINI {
         try { 
             mySection = Sections.Where(section => section.Name == sectionName).ToList()[0];
         } catch {
-            throw new Exception("Not found section");
+            throw new SectionNotFound();
         }
         if (mySection != null) {
             return mySection.Find(key);
@@ -52,16 +53,16 @@ class HandlerFileINI {
         try {
             return Convert.ToInt32(res);
         } catch {
-            throw new Exception("Another type");
+            throw new AnotherType();
         }
     }
 
     public Double GetValueDouble(string sectionName, string key) {
         string res = GetValue(sectionName, key);
         try {
-            return Convert.ToDouble(res);
+            return Convert.ToDouble(res, CultureInfo.InvariantCulture);
         } catch {
-            throw new Exception("Another type");
+            throw new AnotherType();
         }
     }
 
