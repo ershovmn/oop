@@ -1,0 +1,7 @@
+C:\Users\ershovmn\Documents\ITMO\ООП\lab4\lab4\bin\Debug\lab4.exe.config
+C:\Users\ershovmn\Documents\ITMO\ООП\lab4\lab4\bin\Debug\lab4.exe
+C:\Users\ershovmn\Documents\ITMO\ООП\lab4\lab4\bin\Debug\lab4.pdb
+C:\Users\ershovmn\Documents\ITMO\ООП\lab4\lab4\obj\Debug\lab4.csprojAssemblyReference.cache
+C:\Users\ershovmn\Documents\ITMO\ООП\lab4\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+C:\Users\ershovmn\Documents\ITMO\ООП\lab4\lab4\obj\Debug\lab4.exe
+C:\Users\ershovmn\Documents\ITMO\ООП\lab4\lab4\obj\Debug\lab4.pdb

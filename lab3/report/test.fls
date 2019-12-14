@@ -1,0 +1,16 @@
+PWD c:\Users\ershovmn\Documents\ITMO\ООП\lab3\report
+INPUT C:\Users\ershovmn\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\ershovmn\Documents\ITMO\ООП\lab3\report\test.tex
+OUTPUT c:\Users\ershovmn\Documents\ITMO\ООП\lab3\report\test.log
+INPUT C:\Users\ershovmn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\ershovmn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\ershovmn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT C:\Users\ershovmn\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT c:\Users\ershovmn\Documents\ITMO\ООП\lab3\report\test.aux
+INPUT c:\Users\ershovmn\Documents\ITMO\ООП\lab3\report\test.aux
+OUTPUT c:\Users\ershovmn\Documents\ITMO\ООП\lab3\report\test.aux
+OUTPUT c:\Users\ershovmn\Documents\ITMO\ООП\lab3\report\test.pdf
+INPUT C:\Users\ershovmn\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT c:\Users\ershovmn\Documents\ITMO\ООП\lab3\report\test.aux
+INPUT C:\Users\ershovmn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\ershovmn\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
